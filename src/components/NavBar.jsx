@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../lmage/logo.png'; // Make sure the path is correct
+import Logo from '../lmage/logo.png';
+import { FaHamburger, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,34 +20,25 @@ const Navbar = () => {
 
         {/* Right side buttons */}
         <div className="navbar-actions">
-          <Link to="/contact" className="btn-get-started">
+          {/* Desktop Button */}
+          <Link to="/contact" className="btn-get-started desktop-only">
             Get started
           </Link>
 
-          {/* Hamburger */}
+          {/* Hamburger for Mobile */}
           <button
             type="button"
             onClick={handleMenuToggle}
-            className="hamburger"
+            className="hamburger mobile-only"
             aria-controls="navbar-menu"
             aria-expanded={isMenuOpen}
           >
-            <span className="sr-only">Open main menu</span>
-            <svg
-              className="hamburger-icon"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 17 14"
-            >
-              <path
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M1 1h15M1 7h15M1 13h15"
-              />
-            </svg>
+            <span className="sr-only">Toggle menu</span>
+            {isMenuOpen ? (
+              <FaTimes className="hamburger-icon" />
+            ) : (
+              <FaHamburger className="hamburger-icon" />
+            )}
           </button>
         </div>
 
@@ -58,9 +50,9 @@ const Navbar = () => {
           <ul className="navbar-links">
             <li><Link to="/" className="nav-link">Home</Link></li>
             <li><Link to="/about" className="nav-link">About</Link></li>
-            <li><Link to="/services" className="nav-link">Services</Link></li>
-            <li><Link to="/projects" className="nav-link">Website Portfolio</Link></li>
-            <li><Link to="/marketing" className="nav-link">Marketing</Link></li>
+         
+            <li><Link to="/Catalouge" className="nav-link">Product Catalouge</Link></li>
+        
             <li><Link to="/contact" className="nav-link">Contact</Link></li>
           </ul>
         </div>
@@ -155,6 +147,8 @@ const Navbar = () => {
           background-color: white;
           border-radius: 0.5rem;
           font-weight: 500;
+          list-style-type: disc;
+          padding-left: 1.5rem;
         }
 
         .nav-link {
@@ -170,11 +164,16 @@ const Navbar = () => {
           color: #9333ea;
         }
 
-        @media (min-width: 768px) {
-          .navbar-actions {
-            gap: 0;
-          }
+        /* Hide/Show on Devices */
+        .mobile-only {
+          display: inline-flex;
+        }
 
+        .desktop-only {
+          display: none;
+        }
+
+        @media (min-width: 768px) {
           .hamburger {
             display: none;
           }
@@ -190,6 +189,16 @@ const Navbar = () => {
             margin-top: 0;
             padding: 0;
             background: transparent;
+            list-style-type: none;
+            padding-left: 0;
+          }
+
+          .desktop-only {
+            display: inline-flex;
+          }
+
+          .mobile-only {
+            display: none;
           }
         }
       `}</style>

@@ -16,13 +16,16 @@ const Footer = () => {
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
+          align-items: flex-start; /* ✅ Fix misalignment */
           max-width: 1200px;
           margin: auto;
+          padding: 0 20px;
         }
 
         .footer-column {
           flex: 1 1 200px;
-          margin: 20px;
+          padding: 0 20px;
+          box-sizing: border-box;
         }
 
         .footer-title {
@@ -30,6 +33,7 @@ const Footer = () => {
           font-size: 20px;
           font-weight: bold;
           margin-bottom: 16px;
+          text-align: left;
         }
 
         .footer-text {
@@ -85,10 +89,11 @@ const Footer = () => {
           .footer-container {
             flex-direction: column;
             gap: 20px;
+            padding: 0 20px;
           }
 
           .footer-column {
-            margin: 0 0 20px 0;
+            padding: 0;
           }
         }
       `}</style>

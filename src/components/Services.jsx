@@ -1,29 +1,31 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link for navigation
+import Image1 from '../lmage/image1.png';
+import Image2 from '../lmage/image2.png';
+import Image3 from '../lmage/utm.jpeg';
 
 const ServicesSection = () => {
-  // Services data
   const services = [
     {
       id: 1,
-      title: 'Balancing Machines',
-      image: '/images/balancing.jpg',
-      links: ['READ MORE', 'LEARN MORE']
+      title: 'Touchscreen Digital Rockwell Hardness Testing Machine',
+      image: Image1,
+      link: '/hardnesstestingmachines'
     },
     {
       id: 2,
-      title: 'Leeb Portable Hardness Testers',
-      image: '/images/leeb.jpg',
-      links: ['READ MORE', 'LEARN MORE']
+      title: 'Manual Rockwell Hardness Testing Machine',
+      image: Image2,
+      link: '/hardnesstestingmachines'
     },
     {
       id: 3,
-      title: 'Hardness Case Depth',
-      image: '/images/hardness.jpg',
-      links: ['READ MORE', 'LEARN MORE']
+      title: 'Universal Testing Machine',
+      image: Image3,
+      link: '/universal-testing-machine'
     }
   ];
 
-  // Stats data
   const stats = [
     { number: '9+', label: 'Years in Business' },
     { number: '1.5k', label: 'Happy Clients' },
@@ -33,7 +35,6 @@ const ServicesSection = () => {
 
   return (
     <section className="services-section">
-      {/* Services Content */}
       <div className="container">
         <p className="section-label">Our Services</p>
         <h2>Material Testing Machines Supplier, Authorized Dealer</h2>
@@ -44,16 +45,13 @@ const ServicesSection = () => {
               <img src={service.image} alt={service.title} className="service-image" />
               <h3>{service.title}</h3>
               <div className="link-group">
-                {service.links.map((link, index) => (
-                  <a key={index} href="#" className="cta-link">{link}</a>
-                ))}
+                <Link to={service.link} className="cta-link">READ MORE</Link>
               </div>
             </div>
           ))}
         </div>
       </div>
 
-      {/* Stats Overlay */}
       <div className="stats-overlay">
         <div className="stats-container">
           {stats.map((stat, index) => (
@@ -103,21 +101,21 @@ const ServicesSection = () => {
 
         .service-card {
           background: #1a1a1a;
-          padding: 25px;
+          padding: 24px;
           border-radius: 8px;
           box-shadow: 0 2px 15px rgba(255,255,255,0.05);
           color: white;
           text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
         }
 
         .service-image {
-          width: 100%;
-          height: 200px;
+          width: 70%;
+          height: 70%;
           object-fit: contain;
-          margin-bottom: 20px;
-          background-color: #fff;
-          border-radius: 6px;
-          padding: 10px;
+          margin: 0 auto 20px auto;
         }
 
         h3 {
@@ -130,6 +128,8 @@ const ServicesSection = () => {
           justify-content: center;
           gap: 15px;
           flex-wrap: wrap;
+          margin-top: auto;
+          padding-top: 20px;
         }
 
         .cta-link {
@@ -148,7 +148,6 @@ const ServicesSection = () => {
           color: #fff;
         }
 
-        /* Stats Styles */
         .stats-overlay {
           position: absolute;
           bottom: -80px;

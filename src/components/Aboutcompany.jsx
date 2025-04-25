@@ -26,7 +26,7 @@ const AboutCompany = () => {
 
       <div className="certified-section">
         <h3>Certified Company</h3>
-        <button className="read-more-btn">READ MORE</button>
+        <p>TRS Global is ISO 9001:2015 certified, ensuring the highest standards of quality and reliability in all its products and services.</p>
       </div>
     </div>
   );
