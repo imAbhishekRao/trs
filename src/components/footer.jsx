@@ -29,7 +29,7 @@ const Footer = () => {
         }
 
         .footer-title {
-          color: #9333ea;
+          color: #3498db;
           font-size: 20px;
           font-weight: bold;
           margin-bottom: 16px;
@@ -75,7 +75,7 @@ const Footer = () => {
         }
 
         .social-icons a {
-          color: #9333ea;
+          color: #3498db;
           font-size: 18px;
           margin-right: 12px;
           text-decoration: none;

@@ -21,7 +21,7 @@ const ContactSection = () => {
         }
 
         .contact-left h4 {
-          color: #9333ea;
+          color: #3498db;
           font-weight: 600;
           margin-bottom: 10px;
         }
@@ -56,7 +56,7 @@ const ContactSection = () => {
         }
 
         .contact-right h4 {
-          color: #9333ea;
+          color:#3498db;
           font-weight: 600;
           margin-bottom: 10px;
         }

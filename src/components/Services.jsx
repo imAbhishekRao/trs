@@ -80,7 +80,7 @@ const ServicesSection = () => {
           text-align: center;
           font-size: 16px;
           font-weight: 600;
-          color: #9333ea;
+          color: #3498db;
           text-transform: uppercase;
           letter-spacing: 1.5px;
           margin-bottom: 10px;

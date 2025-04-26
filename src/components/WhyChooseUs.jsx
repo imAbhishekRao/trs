@@ -17,7 +17,7 @@ const WhyChooseUs = () => {
         }
 
         .why-choose-subtitle {
-          color: #9333ea;
+          color: #3498db;
           font-weight: 600;
           font-size: 18px;
           margin-bottom: 10px;
@@ -55,7 +55,7 @@ const WhyChooseUs = () => {
         .reason-text {
           font-size: 18px;
           font-weight: 600;
-          color: #9333ea;
+          color: #3498db;
         }
 
         /* Tablet: 2 per row */

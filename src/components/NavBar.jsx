@@ -106,7 +106,7 @@ const Navbar = () => {
         }
 
         .btn-get-started:hover {
-          background-color: #9333ea;
+          background-color: #3498db;
         }
 
         .hamburger {
@@ -161,7 +161,7 @@ const Navbar = () => {
 
         .nav-link:hover {
           background-color: #f3e8ff;
-          color: #9333ea;
+          color: #3498db;
         }
 
         /* Hide/Show on Devices */
