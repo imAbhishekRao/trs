@@ -1,5 +1,5 @@
 import React from 'react';
-import Phot from '../lmage/HomePage.jpg';
+import Phot from '../lmage/Photosi.svg';
 
 const Banner = () => {
   return (
