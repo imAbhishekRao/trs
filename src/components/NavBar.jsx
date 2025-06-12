@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       {/* Top Blue Strip */}
       <div className="top-strip">
-        <div className="top-left">+91 97801 89255</div>
+        <div className="top-left">+91 9803991842</div>
         <div className="top-center">TRS Global Business Solutions</div>
         <div className="top-right">
           <a href="#" className="social-icon"><FaFacebookF /></a>

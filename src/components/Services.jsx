@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link for navigation
-import Image1 from '../lmage/image1.png';
+import Image1 from '../lmage/digital.png';
 import Image2 from '../lmage/image2.png';
 import Image3 from '../lmage/utm.jpeg';
 
@@ -14,14 +14,14 @@ const ServicesSection = () => {
     },
     {
       id: 2,
-      title: 'Manual Rockwell Hardness Testing Machine',
-      image: Image2,
-      link: '/hardnesstestingmachines'
+      title: 'Automatic Impact Tester',
+      image: "https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/Picture3.jpg?raw=true",
+      link: '/impacttestingmachines'
     },
     {
       id: 3,
       title: 'Universal Testing Machine',
-      image: Image3,
+      image: "https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/Untitled%20design%20(48).png?raw=true",
       link: '/universal-testing-machine'
     }
   ];
