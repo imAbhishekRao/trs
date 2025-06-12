@@ -11,7 +11,10 @@ const UltrafluxPowerPack = () => {
 
         <div className="product-content">
           <div className="product-image">
-            <img src="/ultraflux-powerpack.png" alt="ULTRAFLUX Power Pack" />
+            <img 
+              src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-08%20at%2018.01.10.jpeg?raw=true" 
+              alt="ULTRAFLUX Power Pack" 
+            />
           </div>
 
           <div className="product-details">
@@ -99,9 +102,21 @@ const UltrafluxPowerPack = () => {
           }
         }
 
+        .product-image {
+          max-width: 300px;
+        }
+
         .product-image img {
           max-width: 100%;
           height: auto;
+          border-radius: 8px;
+          display: block;
+        }
+
+        @media (max-width: 767px) {
+          .product-image {
+            max-width: 200px;
+          }
         }
 
         .product-details {
@@ -152,11 +167,11 @@ const UltrafluxPowerPack = () => {
         }
 
         .product-buttons button {
-          padding: 12px 25px;
-          font-size: 16px;
+          width: 200px;
+          padding: 10px 20px;
+          font-size: 14px;
           border: none;
           cursor: pointer;
-          width: 250px;
           border-radius: 5px;
         }
 

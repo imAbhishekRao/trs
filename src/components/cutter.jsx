@@ -12,7 +12,7 @@ const AbrasiveCutOffMachines = () => {
         <h1 className="product-title">Heavy Duty Specimen Cutter Machine (MMP-8a)</h1>
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/mmp-8a.png" alt="MMP-8a Machine" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/Picture10.png?raw=true" alt="MMP-8a Machine" />
           </div>
           <div className="product-details">
             <p>Abrasive cut-off machine enabling cool, burn-free sample production with minimal deformation. Features robust construction and rigid clamping to minimize wheel breakage.</p>
@@ -43,7 +43,7 @@ const AbrasiveCutOffMachines = () => {
         <h1 className="product-title">Abrasive Cut Off Machine (MMP-8)</h1>
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/mmp-8.png" alt="MMP-8 Machine" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/Picture10.png?raw=true" alt="MMP-8 Machine" />
           </div>
           <div className="product-details">
             <p>Precision cutting solution for metals and non-metallic materials using 12" abrasive wheel, featuring rust-proof construction and accurate cross-sectioning.</p>

@@ -11,7 +11,7 @@ const ElectronicExtensometer = () => {
 
         <div className="product-content">
           <div className="product-image">
-            <img src="/ee-2-extensometer.png" alt="EE-2 Extensometer" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-05%20at%2013.10.55.jpeg?raw=true" alt="EE-2 Extensometer" />
           </div>
 
           <div className="product-details">

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../lmage/logo.png';
-import { FaHamburger, FaTimes } from 'react-icons/fa';
+import { FaHamburger, FaTimes, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,55 +11,100 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
-        {/* Logo */}
-        <Link to="/" className="navbar-logo">
-          <img src={Logo} className="logo-image" alt="FSSAI Logo" />
-        </Link>
-
-        {/* Right side buttons */}
-        <div className="navbar-actions">
-          {/* Desktop Button */}
-          <Link to="/contact" className="btn-get-started desktop-only">
-            Get started
-          </Link>
-
-          {/* Hamburger for Mobile */}
-          <button
-            type="button"
-            onClick={handleMenuToggle}
-            className="hamburger mobile-only"
-            aria-controls="navbar-menu"
-            aria-expanded={isMenuOpen}
-          >
-            <span className="sr-only">Toggle menu</span>
-            {isMenuOpen ? (
-              <FaTimes className="hamburger-icon" />
-            ) : (
-              <FaHamburger className="hamburger-icon" />
-            )}
-          </button>
-        </div>
-
-        {/* Menu items */}
-        <div
-          className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}
-          id="navbar-menu"
-        >
-          <ul className="navbar-links">
-            <li><Link to="/" className="nav-link">Home</Link></li>
-            <li><Link to="/about" className="nav-link">About</Link></li>
-         
-            <li><Link to="/Catalouge" className="nav-link">Product Catalouge</Link></li>
-        
-            <li><Link to="/contact" className="nav-link">Contact</Link></li>
-          </ul>
+    <>
+      {/* Top Blue Strip */}
+      <div className="top-strip">
+        <div className="top-left">+91 97801 89255</div>
+        <div className="top-center">TRS Global Business Solutions</div>
+        <div className="top-right">
+          <a href="#" className="social-icon"><FaFacebookF /></a>
+          <a href="#" className="social-icon"><FaTwitter /></a>
+          <a href="#" className="social-icon"><FaInstagram /></a>
+          <a href="#" className="social-icon"><FaLinkedinIn /></a>
         </div>
       </div>
 
-      {/* STYLES */}
+      {/* Main Navbar */}
+      <nav className="navbar">
+        <div className="navbar-container">
+          <Link to="/" className="navbar-logo">
+            <img src={Logo} className="logo-image" alt="FSSAI Logo" />
+          </Link>
+
+          <div className="navbar-actions">
+            <Link to="/contact" className="btn-get-started desktop-only">
+              Get started
+            </Link>
+
+            <button
+              type="button"
+              onClick={handleMenuToggle}
+              className="hamburger mobile-only"
+              aria-controls="navbar-menu"
+              aria-expanded={isMenuOpen}
+            >
+              <span className="sr-only">Toggle menu</span>
+              {isMenuOpen ? <FaTimes className="hamburger-icon" /> : <FaHamburger className="hamburger-icon" />}
+            </button>
+          </div>
+
+          <div className={`navbar-menu ${isMenuOpen ? 'open' : ''}`} id="navbar-menu">
+            <ul className="navbar-links">
+              <li><Link to="/" className="nav-link">Home</Link></li>
+              <li><Link to="/about" className="nav-link">About</Link></li>
+              <li><Link to="/Catalouge" className="nav-link">Product Catalouge</Link></li>
+              <li><Link to="/contact" className="nav-link">Contact</Link></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      {/* Styles */}
       <style>{`
+        .top-strip {
+          background-color: #3b4dbd;
+          color: white;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0.5rem 1rem;
+          font-size: 0.9rem;
+          flex-wrap: wrap;
+        }
+
+        .top-left,
+        .top-center,
+        .top-right {
+          flex: 1;
+          text-align: center;
+          font-weight: 600;
+          font-size: large;
+        }
+
+        .top-left {
+          text-align: left;
+          margin-left: 5em;
+        }
+
+        .top-right {
+          text-align: right;
+          display: flex;
+          justify-content: flex-end;
+          gap: 0.75rem;
+          margin-right: 5em;
+        }
+
+        .social-icon {
+          color: white;
+          text-decoration: none;
+          font-size: 1rem;
+          transition: color 0.3s ease;
+        }
+
+        .social-icon:hover {
+          color: #cbd5e1;
+        }
+
         .navbar {
           background-color: white;
           border-bottom: 1px solid #e5e7eb;
@@ -164,7 +209,6 @@ const Navbar = () => {
           color: #3498db;
         }
 
-        /* Hide/Show on Devices */
         .mobile-only {
           display: inline-flex;
         }
@@ -202,7 +246,7 @@ const Navbar = () => {
           }
         }
       `}</style>
-    </nav>
+    </>
   );
 };
 

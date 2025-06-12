@@ -12,7 +12,7 @@ const HardnessTestingMachines = () => {
         <h1 className="product-title">Computerized Brinell Hardness Testing Machine (B-3000-PC)</h1>
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/b-3000-pc.png" alt="B-3000-PC Machine" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-05%20at%2013.04.46.jpeg?raw=true" alt="B-3000-PC Machine" />
           </div>
           <div className="product-details">
             <p>PC-based system with image processing technology for precise Brinell hardness measurement across soft metals to medium-hardness steels.</p>
@@ -42,7 +42,7 @@ const HardnessTestingMachines = () => {
         <h1 className="product-title">Touch Screen Rockwell Hardness Testers (RASN-TS/RASN-TSFA)</h1>
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/rasn-ts.png" alt="RASN-TS Series" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-05%20at%2013.06.18.jpeg?raw=true" alt="RASN-TS Series" />
           </div>
           <div className="product-details">
             <p>Advanced touch screen models with semi/fully automatic operation for Rockwell testing with built-in thermal printer and USB connectivity.</p>
@@ -72,7 +72,7 @@ const HardnessTestingMachines = () => {
         <h1 className="product-title">Digital Rockwell Hardness Testers (RASNE-3 Series)</h1>
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/rasne-3.png" alt="RASNE-3 Series" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-05%20at%2013.05.40.jpeg?raw=true" alt="RASNE-3 Series" />
           </div>
           <div className="product-details">
             <p>Motorized digital testers with automatic cycles and LCD display for Rockwell, Superficial, and Brinell testing applications.</p>
@@ -102,7 +102,7 @@ const HardnessTestingMachines = () => {
         <h1 className="product-title">Touch Screen Brinell Hardness Tester (B-3000-TS)</h1>
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/b-3000-ts.png" alt="B-3000-TS" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-05%20at%2013.03.55.jpeg?raw=true" alt="B-3000-TS" />
           </div>
           <div className="product-details">
             <p>Fully computerized touch screen model with integrated laptop and advanced image processing for non-destructive testing.</p>

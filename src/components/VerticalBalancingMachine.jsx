@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from './footer';
 import Navbar from './NavBar';
 
+
 const BalancingMachineProduct = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const BalancingMachineProduct = () => {
 
         <div className="product-content">
           <div className="product-image">
-            <img src="/path-to-your-image.png" alt="Vertical Balancing Machine" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-05%20at%2012.57.52%20(1).jpeg?raw=true" alt="Vertical Balancing Machine" />
           </div>
 
           <div className="product-details">

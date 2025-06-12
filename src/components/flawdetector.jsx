@@ -5,21 +5,24 @@ import Footer from './footer';
 const FlawDetectorProduct = () => {
   return (
     <>
-    <Navbar/>
+      <Navbar />
 
       <div className="product-container">
         <h1 className="product-title">Digital Ultrasonic Flaw Detector - Einstein-II DGS</h1>
 
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/einstein-ii-dgs.png" alt="Einstein-II DGS Flaw Detector" />
+            <img
+              src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-05%20at%2013.15.15.jpeg?raw=true"
+              alt="Einstein-II DGS Flaw Detector"
+            />
           </div>
 
           <div className="product-details">
             <p>
-              The Einstein-II DGS from Modsonic is a advanced digital ultrasonic flaw detector featuring instant flaw sizing capability. 
-              Designed for precision non-destructive testing, it offers built-in DGS/AVG curves, Time Controlled Gain (TCG), and dynamic 
-              DAC curves for reliable defect evaluation. Ideal for industrial applications requiring accurate flaw detection in materials 
+              The Einstein-II DGS from Modsonic is an advanced digital ultrasonic flaw detector featuring instant flaw sizing capability.
+              Designed for precision non-destructive testing, it offers built-in DGS/AVG curves, Time Controlled Gain (TCG), and dynamic
+              DAC curves for reliable defect evaluation. Ideal for industrial applications requiring accurate flaw detection in materials
               ranging from 10mm to 5 meters in steel.
             </p>
 
@@ -34,16 +37,16 @@ const FlawDetectorProduct = () => {
 
             <h3>Technical Specifications:</h3>
             <ul className="feature-list">
-              <li><strong>Test Range:</strong> 10mm-5m (steel) with 13 Hot Key presets</li>
-              <li><strong>Velocity:</strong> 1000-9999 m/sec (7 presets + fine adjustment)</li>
+              <li><strong>Test Range:</strong> 10mm–5m (steel) with 13 Hot Key presets</li>
+              <li><strong>Velocity:</strong> 1000–9999 m/sec (7 presets + fine adjustment)</li>
               <li><strong>Gain:</strong> 100dB range (0.5/1/2/6/12/20dB steps)</li>
-              <li><strong>Frequency:</strong> 0.5-15MHz broad band amplifier</li>
+              <li><strong>Frequency:</strong> 0.5–15MHz broad band amplifier</li>
               <li><strong>Display:</strong> 320x240px color LCD/TFT with 11 color schemes</li>
               <li><strong>Memory:</strong> Stores 200 A-Scan patterns + 50 calibration setups</li>
               <li><strong>Interfaces:</strong> RS-232, BNC/LEMO connectors, PAL video output</li>
               <li><strong>Software:</strong> EinSoft DGS Interface for PC connectivity</li>
               <li><strong>Power:</strong> 14.4V Li-ion (8hr runtime), 100-240V charger</li>
-              <li><strong>Environmental:</strong> Operates at 0-55°C</li>
+              <li><strong>Environmental:</strong> Operates at 0–55°C</li>
             </ul>
 
             <h3>Advanced Capabilities:</h3>
@@ -63,11 +66,13 @@ const FlawDetectorProduct = () => {
 
             <div className="contact-info">
               <h3>Sold & Serviced By:</h3>
-              <p>TRS Global Business Solutions<br />
-              481-C, Phase-1, Urban Estate, Focal Point,<br />
-              Jamalpur, Ludhiana-141010, Punjab, India<br />
-              📞 9803991842, 9888812254, 01615289386<br />
-              📧 sales.trsgbs@gmail.com</p>
+              <p>
+                TRS Global Business Solutions<br />
+                481-C, Phase-1, Urban Estate, Focal Point,<br />
+                Jamalpur, Ludhiana-141010, Punjab, India<br />
+                📞 9803991842, 9888812254, 01615289386<br />
+                📧 sales.trsgbs@gmail.com
+              </p>
             </div>
           </div>
         </div>
@@ -78,7 +83,6 @@ const FlawDetectorProduct = () => {
         </div>
       </div>
 
-      {/* Inline CSS remains unchanged */}
       <style>{`
         .product-container {
           font-family: Arial, sans-serif;
@@ -106,9 +110,17 @@ const FlawDetectorProduct = () => {
           }
         }
 
+        .product-image {
+          display: flex;
+          justify-content: flex-start;
+          align-self: flex-start;
+        }
+
         .product-image img {
-          max-width: 100%;
+          max-width: 400px;
+          width: 100%;
           height: auto;
+          border-radius: 8px;
         }
 
         .product-details {
@@ -160,6 +172,7 @@ const FlawDetectorProduct = () => {
           border-radius: 5px;
         }
       `}</style>
+
       <Footer />
     </>
   );

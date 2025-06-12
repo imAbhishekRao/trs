@@ -12,7 +12,7 @@ const MetallurgicalPolishingMachines = () => {
 
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/mmp-6.png" alt="MMP-6 Machine" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-05%20at%2012.59.21.jpeg?raw=true" alt="MMP-6 Machine" />
           </div>
 
           <div className="product-details">
@@ -48,7 +48,7 @@ const MetallurgicalPolishingMachines = () => {
 
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/mmp-6a.png" alt="MMP-6A Machine" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-05%20at%2012.59.21.jpeg?raw=true" alt="MMP-6A Machine" />
           </div>
 
           <div className="product-details">
@@ -84,7 +84,7 @@ const MetallurgicalPolishingMachines = () => {
 
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/mmp-7.png" alt="MMP-7 Machine" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-05%20at%2013.02.21.jpeg?raw=true" alt="MMP-7 Machine" />
           </div>
 
           <div className="product-details">
@@ -120,7 +120,7 @@ const MetallurgicalPolishingMachines = () => {
 
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/mmp-7a.png" alt="MMP-7A Machine" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-05%20at%2013.02.21.jpeg?raw=true" alt="MMP-7A Machine" />
           </div>
 
           <div className="product-details">

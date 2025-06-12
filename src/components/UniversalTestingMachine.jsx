@@ -12,7 +12,7 @@ const UniversalTestingMachines = () => {
 
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/UTES-Machine-1.png" alt="FIE UTES Machine" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-12%20at%2010.57.38%20(1).jpeg?raw=true" alt="FIE UTES Machine" />
           </div>
 
           <div className="product-details">
@@ -49,7 +49,7 @@ const UniversalTestingMachines = () => {
 
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/UTES-Machine-2.png" alt="FIE UTE Model Machine" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-12%20at%2010.57.38%20(1).jpeg?raw=true" alt="FIE UTE Model Machine" />
           </div>
 
           <div className="product-details">

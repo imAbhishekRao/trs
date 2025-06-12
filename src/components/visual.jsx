@@ -12,7 +12,7 @@ const AnalyticalInstruments = () => {
         <h1 className="product-title">Optical Emission Spectrometer - AS Series</h1>
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/oes-as-series.png" alt="OES Spectrometer" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/Untitled%20design%20(6).jpg?raw=true" alt="OES Spectrometer" />
           </div>
           <div className="product-details">
             <h3>Product Overview</h3>
@@ -69,7 +69,7 @@ const AnalyticalInstruments = () => {
         <h1 className="product-title">Advanced Computerized Micro Vickers Hardness Tester - MMT-X8</h1>
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/mmt-x8.png" alt="MMT-X8 Hardness Tester" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/WhatsApp%20Image%202025-06-05%20at%2013.14.22.jpeg?raw=true" alt="MMT-X8 Hardness Tester" />
           </div>
           <div className="product-details">
             <h3>Product Overview</h3>
@@ -161,7 +161,7 @@ const AnalyticalInstruments = () => {
         .product-image {
           flex: 0 0 40%;
           display: flex;
-          align-items: center;
+          align-items: start;
         }
 
         .product-image img {

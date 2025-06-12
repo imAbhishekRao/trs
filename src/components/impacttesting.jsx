@@ -12,7 +12,7 @@ const ImpactTestingMachines = () => {
         <h1 className="product-title">Impact Testing Machines (IT-30 Series)</h1>
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/it-30-series.png" alt="IT-30 Series" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/Untitled%20design%20(5).jpg?raw=true" alt="IT-30 Series" />
           </div>
           <div className="product-details">
             <p>
@@ -41,7 +41,7 @@ const ImpactTestingMachines = () => {
         <h1 className="product-title">Automatic Impact Tester (Auto Impact-30)</h1>
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/auto-impact-30.png" alt="Auto Impact-30" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/Picture3.jpg?raw=true" alt="Auto Impact-30" />
           </div>
           <div className="product-details">
             <p>
@@ -70,7 +70,7 @@ const ImpactTestingMachines = () => {
         <h1 className="product-title">ASTM Impact Tester (Auto Impact-40 ASTM)</h1>
         <div className="product-content">
           <div className="product-image">
-            <img src="/images/auto-impact-40.png" alt="Auto Impact-40 ASTM" />
+            <img src="https://github.com/imAbhishekRao/Photos_storage_for_clients/blob/main/Picture2.png?raw=true" alt="Auto Impact-40 ASTM" />
           </div>
           <div className="product-details">
             <p>
@@ -143,7 +143,7 @@ const ImpactTestingMachines = () => {
         }
 
         .product-image img {
-          max-width: 100%;
+          max-width: 70%;
           height: auto;
           border-radius: 5px;
           border: 1px solid #eee;
