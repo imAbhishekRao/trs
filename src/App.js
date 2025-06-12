@@ -16,6 +16,7 @@ import FlawDetectorProduct from './components/flawdetector';
 import HorizontalBalancingMachine from './components/horizontal';
 import AboutUS from './components/AboutUs';
 import ContactUs from './components/ContactUS';
+import Clients from './components/Client';
 function App() {
   return (
     <Router>
@@ -36,7 +37,7 @@ function App() {
     <Route path='/horizontal-balancing-machine' element={<HorizontalBalancingMachine />} />
     <Route path='/about' element={<AboutUS />} />
     <Route path='/contact' element={<ContactUs />} />
-      {/* Add more routes as needed */}
+    <Route path='/client' element={<Clients/>}/>      
      </Routes>
     </div>
     </Router>
